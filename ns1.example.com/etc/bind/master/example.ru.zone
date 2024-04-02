@@ -1,0 +1,17 @@
+$TTL    3600
+@       IN      SOA     ns1.example.com. admin.example.ru. (
+                              1         ; (Serial)Серийный номер
+                         604800         ; (Refresh)Период обновления (1 неделя)
+                          86400         ; (Retry)Период попытки повтора (1 день)
+                        2419200         ; (Expire)Время истечения (4 недели)
+                         604800 )       ; (Negative Cache TTL)Отрицательный кеш TTL (1 неделя)
+;
+@       IN      NS      ns1.example.com.
+@       IN      NS      ns2.example.com.
+@       IN      NS      ns3.example.com.
+
+; A записи для серверов имен
+; ns1     IN      A       172.28.1.1
+; ns2     IN      A       172.28.2.2
+; ns3     IN      A       172.28.3.3
+

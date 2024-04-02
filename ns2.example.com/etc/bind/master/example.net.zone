@@ -1,0 +1,15 @@
+$TTL    3600
+@       IN      SOA     ns2.example.com. admin.example.net. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns2.example.com.
+@       IN      NS      ns3.example.com.
+
+; A записи для серверов имен
+; ns2     IN      A       172.28.2.2
+; ns3     IN      A       172.28.3.3
+
