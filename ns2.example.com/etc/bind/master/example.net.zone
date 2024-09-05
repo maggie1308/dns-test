@@ -1,6 +1,6 @@
 $TTL    3600
 @       IN      SOA     ns2.example.com. admin.example.net. (
-                              1         ; Serial
+                              2         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -10,6 +10,6 @@ $TTL    3600
 @       IN      NS      ns3.example.com.
 
 ; A записи для серверов имен
-; ns2     IN      A       172.28.2.2
-; ns3     IN      A       172.28.3.3
+ns2     IN      A       172.28.2.2
+ns3     IN      A       172.28.3.3
 
