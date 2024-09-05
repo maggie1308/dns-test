@@ -1,6 +1,6 @@
-ns1.example.com 172.28.1.1
-ns2.example.com 172.28.2.2
-ns3.example.com 172.28.3.3
+ns1.example.com 172.28.1.
+ns2.example.com 172.28.2.
+ns3.example.com 172.28.3.
 ns4.example.com 172.28.4.4
 ns5.example.com 172.28.5.5
 ns6.example.com 172.28.6.6
