@@ -1,6 +1,6 @@
 $TTL    3600
 @       IN      SOA     ns2.example.com. admin.example.net. (
-                              4         ; Serial
+                              5         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
